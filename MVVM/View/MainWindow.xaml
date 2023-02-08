@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:WpfCryptApp.MVVM.View"
         mc:Ignorable="d"
         Title="TCrypt" Height="450" Width="800">
-    <Border Background="#1c1c1c" 
-            CornerRadius="10">
+    
+    <Border Background="#1c1c1c">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="180"/>
@@ -43,10 +43,6 @@
                      HorizontalAlignment="Left"
                      VerticalContentAlignment="Center"
             Style="{StaticResource ImprovedTextBox}"/>
-
         </Grid>
-
-
-
     </Border>
 </Window>
